@@ -1,4 +1,5 @@
 import React from "react";
+import { MdDelete } from "react-icons/md";
 
 function LeaderBoard({ arr, handeEdit, handleDelete }) {
   return (
@@ -22,7 +23,7 @@ function LeaderBoard({ arr, handeEdit, handleDelete }) {
                   <div className="actions">
                     <span onClick={(e)=>handeEdit(obj.id, "+")}>+5</span>
                     <span onClick={(e)=>handeEdit(obj.id, "-")}>-5</span>
-                    <span onClick={()=>handleDelete(obj.id)}>Delete</span>
+                    <span onClick={()=>handleDelete(obj.id)}><MdDelete /></span>
                   </div>
                 </div>
               );
