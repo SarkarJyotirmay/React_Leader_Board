@@ -119,6 +119,12 @@ form{
       cursor: pointer;
       vertical-align: middle;
     }
+
+    #delete-span{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 
 }

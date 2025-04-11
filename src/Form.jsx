@@ -56,7 +56,7 @@ function Form({
           value={country}
           onChange={(e) => setCountry(e.target.value)}
         >
-          <option value="" disabled selected>Select a Country</option>
+          <option value="" disabled >Select a Country</option>
           <option value="india">India</option>
           <option value="afghanistan">Afghanistan</option>
           <option value="zimbabway">Zimbabway</option>
